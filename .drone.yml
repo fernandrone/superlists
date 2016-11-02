@@ -6,5 +6,5 @@ pipeline:
   test:
     image: python:3.4.3
     commands:
-      - pip install django==1.7
+      - pip install django==1.7 selenium
       - python manage.py test
