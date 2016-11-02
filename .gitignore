@@ -4,3 +4,4 @@ db.sqlite3
 !.drone.yml
 __pycache__
 *.pyc
+coverage.xml
