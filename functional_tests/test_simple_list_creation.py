@@ -9,6 +9,7 @@ import sys
 
 class NewVisitorTest(FunctionalTest):
 
+    @skip("I don't want to run this test yet")
     def test_can_start_a_list_and_retrieve_it_later(self):
         # Edith has heard about a cool new online to-do app. She goes
         # to check out its homepage

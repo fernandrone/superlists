@@ -9,6 +9,7 @@ import sys
 
 class LayoutAndStylingTest(FunctionalTest):
 
+    @skip("I don't want to run this test yet")
     def test_layout_and_styling(self):
         # Edit goes to the home page
         self.browser.get(self.server_url)

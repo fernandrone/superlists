@@ -1,0 +1,10 @@
+workspace:
+  base: /app
+  path: superlists
+
+pipeline:
+  test:
+    image: python:3.4.3
+    commands:
+      - pip install django==1.7
+      - python manage.py test
