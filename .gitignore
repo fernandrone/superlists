@@ -1,5 +1,5 @@
+.coverage
 db.sqlite3
-.*
 !/.gitignore
 !.drone.yml
 __pycache__

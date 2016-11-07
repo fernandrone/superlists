@@ -47,6 +47,7 @@ TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 NOSE_ARGS = [
             '--with-coverage',
             '--cover-xml',
+            '--cover-inclusive',
             '--cover-package=lists,superlists',
 ]
 
