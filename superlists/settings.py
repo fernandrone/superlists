@@ -48,6 +48,7 @@ NOSE_ARGS = [
             '--cover-xml',
             '--cover-inclusive',
             '--cover-package=lists,superlists',
+            '--nologcapture',
 ]
 
 MIDDLEWARE_CLASSES = (
