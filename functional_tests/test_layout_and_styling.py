@@ -9,7 +9,6 @@ import sys
 
 class LayoutAndStylingTest(FunctionalTest):
 
-    @skip("I don't want to run this test yet")
     def test_layout_and_styling(self):
         # Edit goes to the home page
         self.browser.get(self.server_url)
@@ -20,7 +19,7 @@ class LayoutAndStylingTest(FunctionalTest):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta=5
+            delta=10
         )
 
         # She starts a new list and sees the input is nicely centered there too
@@ -29,5 +28,5 @@ class LayoutAndStylingTest(FunctionalTest):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta=5
+            delta=10
         )

@@ -9,7 +9,6 @@ import sys
 
 class ItemValidationTest(FunctionalTest):
 
-    @skip("I don't want to run this test yet")
     def test_cannot_add_empty_list_items(self):
         # Edith goes to the home page and accidentally tries to submit
         # an empty list item. She hits Enter on the empty input box
