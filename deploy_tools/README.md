@@ -34,3 +34,8 @@ Assume we have a user account at /home/username
                  ├── source
                  ├── static
                  └── virtualenv
+
+## Automatic deployment
+```
+$ ansible-playbook -i ansible.inventory provision.ansible.yaml --limit=staging
+```
