@@ -13,4 +13,4 @@ pipeline:
     image: fbcbarbosa/coverage
     environment:
       - GITHUB_TOKEN=a6a3f714637560a008d2ac7d0e8b27d29487f5c6
-    server: http://www.fbcbarbosa.xyz:8082
+    server: http://aircover.fbcbarbosa.xyz
